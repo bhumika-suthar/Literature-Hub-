@@ -1,0 +1,207 @@
+body {
+    background-color: #2c3e50;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+.navigation-bar {
+    background-color: rgb(175, 134, 31);
+    padding: 10px 0;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+  }
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.carousel-cell img {
+    border-radius: 10px;
+}
+
+.about {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.welcome {
+    font-size: 2.5em;
+    text-decoration: dotted;
+}
+
+.description {
+    font-size: 1.2em;
+    margin-top: -1%;
+}
+
+.quote {
+    font-size: 2em;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.book-shelf, .image {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.content-text {
+    font-size: 1.5em;
+    margin: 0 20px;
+}
+
+.arrow-container {
+    margin: 20px;
+}
+
+.arrow {
+    height: 50px;
+    width: 50px;
+}
+
+.footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.svg {
+    height: 40px;
+    width: 40px;
+    margin: 0 10px;
+}
+
+.category-card {
+    text-align: center;
+    background-color: #dee4e9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+}
+
+.category-card img {
+    border-radius: 10px;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card p {
+    margin: 10px 0;
+    color: rgb(55, 55, 87);
+}
+
+.category-card .btn {
+    margin-top: 10px;
+}
+
+  .category-card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+
+
+    .fun-corner {
+        background-color: rgb(175, 134, 31);
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+      margin-top: 2rem;
+      border-radius: 8px;
+    }
+  
+    .quote-box {
+      background-color: #333;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+  
+    .quote-box p {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  
+    #new-quote-btn {
+        background-color: rgb(175, 134, 31);
+      border: none;
+      color: white;
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+  
+    #new-quote-btn:hover {
+      background-color: #ff9900;
+    }
+    
+  
+    .guess-word-box {
+      background-color: #333;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+  
+    .guess-word-box p {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  
+    #guess-input {
+      margin-bottom: 1rem;
+    }
+  
+    #guess-btn {
+        background-color: rgb(175, 134, 31);
+      border: none;
+      color: #333;
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+  
+    #guess-btn:hover {
+      background-color: rgb(175, 134, 31);;
+    }
+  
+    #result-text {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+    }
+ 
+  
+ 
+  

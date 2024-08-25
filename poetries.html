@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poetry - Literature Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .poetry-section {
+      padding: 2rem;
+      color: white;
+      background-color: #333;
+    }
+    .poetry-card {
+      background-color: #444;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .poetry-card:hover {
+      background-color: #5e5353;
+    }
+    .poetry-content {
+      display: none;
+      margin-top: 1rem;
+      color: #ccc;
+    }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const cards = document.querySelectorAll('.poetry-card');
+      cards.forEach(card => {
+        card.addEventListener('click', () => {
+          const content = card.querySelector('.poetry-content');
+          content.style.display = content.style.display === 'none' ? 'block' : 'none';
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <header class="title">Literature Hub</header>
+  <hr style="color: white;">
+
+  <!-- nav bar -->
+  <div class="navigation-bar">
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" style="color: white;">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="categories.html" style="color: white;">Categories</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html" style="color: white;">About Us</a>
+      </li>
+    </ul>
+  </div>
+  <br><br>
+
+  <!-- Poetry Section -->
+  <div class="poetry-section container">
+    <h2>Poetry</h2>
+    <div class="poetry-card">
+      <h4>Allama Iqbal</h4>
+      <p>Khudi Ko Kar Buland Itna</p>
+      <div class="poetry-content">
+        <p>Khudi ko kar buland itna ke har taqdeer se pehle,</p>
+        <p>Khuda bande se khud pooche, bata teri raza kya hai.</p>
+      </div>
+    </div>
+    <div class="poetry-card">
+      <h4>Faiz Ahmed Faiz</h4>
+      <p>Mujhse Pehli si mohabbat Mere mehboob n maang</p>
+      <div class="poetry-content">
+        <p>mujh se pahlī sī mohabbat mirī mahbūb na maañg </p>
+        <p>maiñ ne samjhā thā ki tū hai to daraḳhshāñ hai hayāt</p>
+        <p>terā ġham hai to ġham-e-dahr kā jhagḌā kyā hai</p>
+        <p>terī sūrat se hai aalam meñ bahāroñ ko sabāt</p>
+        <p>terī āñkhoñ ke sivā duniyā meñ rakkhā kyā hai </p>
+        <p>tū jo mil jaa.e to taqdīr nigūñ ho jaa.e </p>
+        <p> yuuñ na thā maiñ ne faqat chāhā thā yuuñ ho jaa.e </p>
+        <p>aur bhī dukh haiñ zamāne meñ mohabbat ke sivā </p>
+        <p>rāhateñ aur bhī haiñ vasl kī rāhat ke sivā </p>
+        <p>an-ginat sadiyoñ ke tārīk bahīmāna tilism </p>
+        <p>resham o atlas o kamḳhāb meñ bunvā.e hue </p>
+        <p>jā-ba-jā bikte hue kūcha-o-bāzār meñ jism </p>
+        <p>ḳhaak meñ luThḌe hue ḳhuun meñ nahlā.e hue</p>
+        <p>jism nikle hue amrāz ke tannūroñ se </p>
+        <p>piip bahtī huī galte hue nāsūroñ se </p>
+        <p>lauT jaatī hai udhar ko bhī nazar kyā kiije</p>
+        <p>ab bhī dilkash hai tirā husn magar kyā kiije </p>
+        <p>aur bhī dukh haiñ zamāne meñ mohabbat ke sivā </p>
+        <p>rāhateñ aur bhī haiñ vasl kī rāhat ke sivā </p>
+        <p>mujh se pahlī sī mohabbat mirī mahbūb na maañg</p>
+      </div>
+    </div>
+    <div class="poetry-card">
+      <h4>Mirza Ghalib</h4>
+      <p>Hazaron Khwahishen Aisi</p>
+      <div class="poetry-content">
+        <p>Hazaron khwahishen aisi ke har khwahish pe dam nikle,</p>
+        <p>Bohat nikle mere armaan lekin phir bhi kam nikle.</p>
+      </div>
+    </div>
+    <div class="poetry-card">
+      <h4>Ahmed Faraz</h4>
+      <p>Ab Ke Hum Bichde</p>
+      <div class="poetry-content">
+        <p>Ab ke hum bichde to shayad kabhi khwabon mein milein,</p>
+        <p>Jis tarah sookhe hue phool kitaabon mein milein.</p>
+      </div>
+    </div>
+    <div class="poetry-card">
+      <h4>Parveen Shakir</h4>
+      <p>Woh Humsafar Tha</p>
+      <div class="poetry-content">
+        <p>Woh humsafar tha magar us se humnawai na thi,</p>
+        <p>Ke dhoop chaon ka aalam raha judai na thi.</p>
+      </div>
+    </div>
+    <div class="poetry-card">
+      <h4>Jaun Elia</h4>
+      <p>Shayad</p>
+      <div class="poetry-content">
+        <p>Shayad mujhe kisi se mohabbat nahi hui,</p>
+        <p>Lekin yaqeen sab ko dilata raha hoon main.</p>
+      </div>
+    </div>
+    <div class="poetry-card">
+      <h4>Amjad Islam Amjad</h4>
+      <p>Barish</p>
+      <div class="poetry-content">
+        <p>Barish ki pehli boonden girne lagi hain,</p>
+        <p>Abhi bhi waise khushbu aati hai mitti se.</p>
+      </div>
+    </div>
+    <div class="poetry-card">
+      <h4>Munir Niazi</h4>
+      <p>Hamesha Dair Kar Deta Hoon Main</p>
+      <div class="poetry-content">
+        <p>Hamesha dair kar deta hoon main,</p>
+        <p>Har kaam karne mein.</p>
+      </div>
+    </div>
+    <div class="poetry-card">
+      <h4>Habib Jalib</h4>
+      <p>Main Nahi Manta</p>
+      <div class="poetry-content">
+        <p>Main nahi manta, main nahi jaanta,</p>
+        <p>Jo zulum ki rasm hai, main nahi maanta.</p>
+      </div>
+    </div>
+    <div class="poetry-card">
+      <h4>Gulzar</h4>
+      <p>Mora Gora Ang Lai Le</p>
+      <div class="poetry-content">
+        <p>Mora gora ang lai le, mohe shyam rang dai de,</p>
+        <p>Chup jaungi raat hi mein, mohe pehar rang dai de.</p>
+      </div>
+    </div>
+    <div class="poetry-card">
+      <h4>Sahir Ludhianvi</h4>
+      <p>Chalo Ek Baar Phir Se</p>
+      <div class="poetry-content">
+        <p>Chalo ek baar phir se ajnabi ban jayen hum dono,</p>
+        <p>Naa main tum se kuch kahun, naa tum mere kuch kaho.</p>
+      </div>
+    </div>
+    <div class="poetry-card">
+      <h4>Nasir Kazmi</h4>
+      <p>Dil Dhundta Hai</p>
+      <div class="poetry-content">
+        <p>Dil dhundta hai phir wahi fursat ke raat din,</p>
+        <p>Baithen rahe tasavvur-e-jana kiye hue.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="footer">
+    <img src="images/insta.png" class="svg" alt="Instagram">
+    <img src="images/twitter.png" class="svg" alt="Twitter">
+    <img src="images/fb.png" class="svg" alt="Facebook">
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
